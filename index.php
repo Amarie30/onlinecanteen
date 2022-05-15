@@ -86,10 +86,14 @@
                             <img src="img/carousel.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1> Order your <span> Snacks</span> Online</h1>
-                            <p>
+                            <?php
+                            echo "<h1> Order your <span> Snacks</span> Online</h1>";
+                            echo "<p>
                                 Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
-                            </p>
+                            </p>";
+
+                            ?>
+
                             <div class="carousel-btn">
                                 <a class="btn custom-btn" href="">View Menu</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
@@ -101,10 +105,12 @@
                             <img src="img/carousel2.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Fastest Order <span>Delivery</span></h1>
-                            <p>
+                           <?php 
+                            echo"<h1>Fastest Order <span>Delivery</span></h1>";
+                            echo"<p>
                                 Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
-                            </p>
+                            </p>";
+                            ?>
                             <div class="carousel-btn">
                                 <a class="btn custom-btn" href="">View Menu</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
@@ -124,16 +130,20 @@
                     <div class="col-lg-7">
                         <div class="booking-content">
                             <div class="section-header">
-                                <p>Reserve A Table</p>
-                                <h2>Reserve Your Table For You & Your Friends During Meal Hours</h2>
+                                <?php
+                                echo"<p>Reserve A Table</p>";
+                                echo"<h2>Reserve Your Table For You & Your Friends During Meal Hours</h2>";
+                                ?>
                             </div>
                             <div class="about-text">
-                                <p>
+                               <?php
+                                echo "<p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
+                                </p>";
+                                echo "<p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
+                                </p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -230,10 +240,12 @@
                                 <p>About Us</p>
                             </div>
                             <div class="about-text">
-                              <p>MSC Canteen Online Ordering System is a program that speeds up the ordering process. Students are no longer required to stand in line. Students also save time and energy by not having to go down stairs to learn about the foods available at the canteen. This website has a user-friendly design as well. To provide users with a good experience, the developers made the interface as simple as possible.</p>
-                              <p>
+                              <?php
+                              echo"<p>MSC Canteen Online Ordering System is a program that speeds up the ordering process. Students are no longer required to stand in line. Students also save time and energy by not having to go down stairs to learn about the foods available at the canteen. This website has a user-friendly design as well. To provide users with a good experience, the developers made the interface as simple as possible.</p>";
+                             echo"<p>
                                     This web application's goal is to provide a new way to order dishes at the canteen. Its purpose is to serve as the MSC canteen's e-commerce website.
-                                </p>
+                                </p>";
+                                ?>
 
                                 
                                 <a class="btn custom-btn" href="reservation.php">Reserve A Table</a>
@@ -322,19 +334,24 @@
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-medal"></i>
-                                    <h3>Best quality products</h3>
-                                    <p>
+
+                                    <?php
+                                    echo"<h3>Best quality products</h3>";
+                                   echo" <p>
                                         Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
+                                    </p>";
+                                    ?>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-meat"></i>
-                                    <h3>Fresh vegetables & Meet</h3>
-                                    <p>
+                                    <?php
+                                    echo"<h3>Fresh vegetables & Meet</h3>";
+                                    echo"<p>
                                         Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
+                                    </p>";
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -342,19 +359,26 @@
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-courier"></i>
-                                    <h3>Fastest room delivery</h3>
-                                    <p>
+                                    <?php
+                                    echo"<h3>Fastest room delivery</h3>";
+                                    echo"<p>
                                         Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
+                                    </p>";
+                                    ?>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="feature-item">
-                                    <i class="flaticon-fruits-and-vegetables"></i>
-                                    <h3>Ground beef & Low fat</h3>
-                                    <p>
+                                    <i class="flaticon-fruits-and-vegetables">
+                                    
+                                    </i>
+
+                                    <?php
+                                    echo"<h3>Ground beef & Low fat</h3>";
+                                    echo"<p>
                                         Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                    </p>
+                                    </p>";
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -372,60 +396,77 @@
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-vegetable"></i>
-                            <h2>Breakfast</h2>
-                            <p>
+                            
+                            <?php
+                            echo"<h2>Breakfast</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
+                            </p>";
+                            ?>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-snack"></i>
-                            <h2>Snacks</h2>
-                            <p>
+                           
+                            <?php
+                            echo"<h2>Snacks</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
+                            </p>";
+                            ?>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-cocktail"></i>
-                            <h2>Drinks</h2>
-                            <p>
+                            
+                            <?php
+                            echo"<h2>Drinks</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
+                            </p>";
+                            ?>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-meat"></i>
-                            <h2>Lunch</h2>
-                            <p>
+                            <?php
+                            echo"<h2>Lunch</h2>";
+                            "<p>
                                 Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
+                            </p>";
+                            ?>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-fast-food"></i>
-                            <h2>Appetizers</h2>
-                            <p>
+                            
+                            <?php
+                            echo"<h2>Appetizers</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
+                            </p>";
+                            ?>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-cooking"></i>
-                            <h2>Dessert</h2>
-                            <p>
+                            <?php
+                            echo"<h2>Dessert</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
+                            </p>";
+                            ?>
+
                             <a href="">View Menu</a>
                         </div>
                     </div>
@@ -439,8 +480,10 @@
           <div class="menu">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Food Menu</p>
-                    <h2>Today's Menu</h2>
+                    <?php
+                    echo"<p>Food Menu</p>";
+                    echo"<h2>Today's Menu</h2>";
+                    ?>
                 </div>
                 <div class="menu-tab">
                     <ul class="nav nav-pills justify-content-center">
@@ -472,8 +515,10 @@
                                             <img src="img/egg-fried-rice.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Egg Fried Rice</span> <strong>₱25.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Egg Fried Rice</span> <strong>₱25.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -481,8 +526,10 @@
                                             <img src="img/hotsilog.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Hotsilog</span> <strong>₱50.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Hotsilog</span> <strong>₱50.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -490,8 +537,11 @@
                                             <img src="img/longsilog.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Longsilog</span> <strong>₱50.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                           
+                                           <?php
+                                            echo"<h3><span>Longsilog</span> <strong>₱50.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -499,8 +549,10 @@
                                             <img src="img/filipino-beef-tapa-tapsilog-1.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Tapsilog</span> <strong>₱65.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Tapsilog</span> <strong>₱65.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -508,8 +560,10 @@
                                             <img src="img/tocilog.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Tocilog</span> <strong>₱100.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Tocilog</span> <strong>₱100.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -526,8 +580,10 @@
                                             <img src="img/snacks-nova.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Nova</span> <strong>₱15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Nova</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -535,8 +591,10 @@
                                             <img src="img/snacks-piattos.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Piattos</span> <strong>₱15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Piattos</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -544,8 +602,10 @@
                                             <img src="img/snacks-rebisco.jpeg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Rebisco</span> <strong>₱7.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Rebisco</span> <strong>₱7.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -553,8 +613,11 @@
                                             <img src="img/snacks-skyflakes.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Skyflakes</span> <strong>₱25.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo
+                                            "<h3><span>Skyflakes</span> <strong>₱25.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -571,8 +634,10 @@
                                             <img src="img/drinks-cocacola.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Coca-cola</span> <strong>₱15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Coca-cola</span> <strong>₱15.00</strong></h3>";
+                                            "<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -580,8 +645,10 @@
                                             <img src="img/drinks-royal.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Royal</span> <strong>₱15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Royal</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -589,8 +656,10 @@
                                             <img src="img/drinks-milktea.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Milk Tea</span> <strong>₱65.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Milk Tea</span> <strong>₱65.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -598,8 +667,10 @@
                                             <img src="img/drinks-icedtea.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Iced Tea</span> <strong>₱25.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Iced Tea</span> <strong>₱25.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -607,8 +678,10 @@
                                             <img src="img/sprite.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Sprite</span> <strong>₱15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <?php
+                                            echo"<h3><span>Sprite</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -626,8 +699,10 @@
                                 <img src="img/adobo.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Pork Adobo</span> <strong>₱50.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Pork Adobo</span> <strong>₱50.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -635,8 +710,10 @@
                                 <img src="img/chicken curry.png" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Chicken Curry</span> <strong>₱50.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Chicken Curry</span> <strong>₱50.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -644,8 +721,10 @@
                                 <img src="img/chicken-nuggets-square.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Chicken Nuggets</span> <strong>₱15.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Chicken Nuggets</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -653,8 +732,10 @@
                                 <img src="img/linch beefsteak.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Beef Steak</span> <strong>₱65.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Beef Steak</span> <strong>₱65.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -662,8 +743,10 @@
                                 <img src="img/caldereta.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Caldereta</span> <strong>₱50.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Caldereta</span> <strong>₱50.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -680,8 +763,10 @@
                                 <img src="img/app-lumpia.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Lumpiang Shanghai</span> <strong>₱15.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Lumpiang Shanghai</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -689,8 +774,10 @@
                                 <img src="img/potato mojos.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Potato Mojos</span> <strong>₱15.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Potato Mojos</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -698,8 +785,10 @@
                                 <img src="img/cheesy-dynamite.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Cheesy Dynamite</span> <strong>₱15.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Cheesy Dynamite</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -707,8 +796,10 @@
                                 <img src="img/coconut-shrimp.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Coconut Shrimp</span> <strong>₱25.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Coconut Shrimp</span> <strong>₱25.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -725,8 +816,10 @@
                                 <img src="img/snacks-puto.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Puto</span> <strong>₱15.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Puto</span> <strong>₱15.00</strong></h3>";
+                                "<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -734,8 +827,10 @@
                                 <img src="img/dessert-cassavacake.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Cassava Cake</span> <strong>₱10.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Cassava Cake</span> <strong>₱10.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -743,8 +838,10 @@
                                 <img src="img/dessert-halohalo.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Halo Halo</span> <strong>₱25.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Halo Halo</span> <strong>₱25.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                         <div class="menu-item">
@@ -752,8 +849,10 @@
                                 <img src="img/dessert-majablanca.jpg" alt="Image">
                             </div>
                             <div class="menu-text">
-                                <h3><span>Maja Blanca</span> <strong>₱25.00</strong></h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                <?php
+                                echo"<h3><span>Maja Blanca</span> <strong>₱25.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -773,8 +872,10 @@
         <div class="contact">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Contact Us</p>
-                    <h2>Contact For Any Query</h2>
+                    <?php
+                    echo"<p>Contact Us</p>";
+                    echo"<h2>Contact For Any Query</h2>";
+                    ?>
                 </div>
                 <div class="row align-items-center contact-information">
                     <div class="col-md-6 col-lg-3">
@@ -783,8 +884,10 @@
                                 <i class="fa fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Address</h3>
-                                <p>Tanza, Boac, Marinduque</p>
+                                <?php
+                                echo"<h3>Address</h3>";
+                                echo"<p>Tanza, Boac, Marinduque</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -794,8 +897,10 @@
                                 <i class="fa fa-phone-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Call Us</h3>
-                                <p>09-1045-321-21</p>
+                                <?php
+                                echo"<h3>Call Us</h3>";
+                                echo"<p>09-1045-321-21</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -805,8 +910,10 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Email Us</h3>
-                                <p>msc@gmail.com</p>
+                                <?php
+                                echo"<h3>Email Us</h3>";
+                                echo"<p>msc@gmail.com</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -900,10 +1007,12 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
+                            <?php
+                            echo"<h2>Newsletter</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                            </p>
+                            </p>";
+                            ?>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
                                 <button class="btn custom-btn">Submit</button>
@@ -914,8 +1023,9 @@
             </div>
             <div class="copyright">
                 <div class="container">
+                    
                     <p>Copyright &copy; <a href="#">MSC's Online Canteen</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                   <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
