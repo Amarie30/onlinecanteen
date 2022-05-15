@@ -118,9 +118,11 @@
                         <div class="gallery-single fix">
                             <img src="img/cheesy-dynamite.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Cheesy Dynamite</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱15.00</h5>
+                                <?php
+                                echo"<h4>Cheesy Dynamite</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱15.00</h5>";"
+                            ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -131,9 +133,11 @@
                         <div class="gallery-single fix">
                             <img src="img/coconut-shrimp.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Coconut SHrimp</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱25.00</h5>
+                                <?php
+                                echo"<h4>Coconut SHrimp</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱25.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -144,9 +148,11 @@
                         <div class="gallery-single fix">
                             <img src="img/calamares-fi.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Calamares</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱15.00</h5>
+                                <?php
+                                echo"<h4>Calamares</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱15.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -157,9 +163,11 @@
                         <div class="gallery-single fix">
                             <img src="img/cheesesticks.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Cheese Sticks</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱15.00</h5>
+                                <?php
+                                echo"<h4>Cheese Sticks</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱15.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -176,7 +184,7 @@
         
         
 
-        <!-- Footer Start -->
+               <!-- Footer Start -->
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -200,9 +208,9 @@
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
+                                    <a href="terms.php">Terms of use</a>
+                                    <a href="privacypolicy.php">Privacy policy</a>
+                                    <a href="cookies.php">Cookies</a>
                                     <a href="">Help</a>
                                     <a href="">FQAs</a>
                                 </div>
@@ -211,10 +219,12 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
+                            <?php
+                            echo"<h2>Newsletter</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                            </p>
+                            </p>";
+                            ?>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
                                 <button class="btn custom-btn">Submit</button>
@@ -225,12 +235,14 @@
             </div>
             <div class="copyright">
                 <div class="container">
+                    
                     <p>Copyright &copy; <a href="#">MSC's Online Canteen</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                   <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
         <!-- Footer End -->
+
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
