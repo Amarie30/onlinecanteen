@@ -77,12 +77,14 @@
         <!-- Page Header End -->
         
         
-         <!-- Contact Start -->
-         <div class="contact">
+           <!-- Contact Start -->
+        <div class="contact">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Contact Us</p>
-                    <h2>Contact For Any Query</h2>
+                    <?php
+                    echo"<p>Contact Us</p>";
+                    echo"<h2>Contact For Any Query</h2>";
+                    ?>
                 </div>
                 <div class="row align-items-center contact-information">
                     <div class="col-md-6 col-lg-3">
@@ -91,8 +93,10 @@
                                 <i class="fa fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Address</h3>
-                                <p>Tanza, Boac, Marinduque</p>
+                                <?php
+                                echo"<h3>Address</h3>";
+                                echo"<p>Tanza, Boac, Marinduque</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -102,8 +106,10 @@
                                 <i class="fa fa-phone-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Call Us</h3>
-                                <p>09-1045-321-21</p>
+                                <?php
+                                echo"<h3>Call Us</h3>";
+                                echo"<p>09-1045-321-21</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -113,8 +119,10 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Email Us</h3>
-                                <p>msc@gmail.com</p>
+                                <?php
+                                echo"<h3>Email Us</h3>";
+                                echo"<p>msc@gmail.com</p>";
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -170,6 +178,8 @@
         <!-- Contact End -->
 
 
+
+      
         <!-- Footer Start -->
         <div class="footer">
             <div class="container">
@@ -194,9 +204,9 @@
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
+                                    <a href="terms.php">Terms of use</a>
+                                    <a href="privacypolicy.php">Privacy policy</a>
+                                    <a href="cookies.php">Cookies</a>
                                     <a href="">Help</a>
                                     <a href="">FQAs</a>
                                 </div>
@@ -205,10 +215,12 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
+                            <?php
+                            echo"<h2>Newsletter</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                            </p>
+                            </p>";
+                            ?>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
                                 <button class="btn custom-btn">Submit</button>
@@ -219,8 +231,9 @@
             </div>
             <div class="copyright">
                 <div class="container">
+                    
                     <p>Copyright &copy; <a href="#">MSC's Online Canteen</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                   <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
