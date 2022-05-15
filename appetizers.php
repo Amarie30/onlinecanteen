@@ -121,7 +121,7 @@
                                 <?php
                                 echo"<h4>Cheesy Dynamite</h4>";
                                 echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
-                                echo"<h5>₱15.00</h5>";"
+                                echo"<h5>₱15.00</h5>";
                             ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
