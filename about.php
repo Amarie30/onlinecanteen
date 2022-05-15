@@ -78,6 +78,7 @@
         
         
      
+       
         <!-- About Start -->
         <div class="about">
             <div class="container">
@@ -96,13 +97,15 @@
                                 <p>About Us</p>
                             </div>
                             <div class="about-text">
-                              <p>MSC Canteen Online Ordering System is a program that speeds up the ordering process. Students are no longer required to stand in line. Students also save time and energy by not having to go down stairs to learn about the foods available at the canteen. This website has a user-friendly design as well. To provide users with a good experience, the developers made the interface as simple as possible.</p>
-                              <p>
+                              <?php
+                              echo"<p>MSC Canteen Online Ordering System is a program that speeds up the ordering process. Students are no longer required to stand in line. Students also save time and energy by not having to go down stairs to learn about the foods available at the canteen. This website has a user-friendly design as well. To provide users with a good experience, the developers made the interface as simple as possible.</p>";
+                             echo"<p>
                                     This web application's goal is to provide a new way to order dishes at the canteen. Its purpose is to serve as the MSC canteen's e-commerce website.
-                                </p>
+                                </p>";
+                                ?>
 
                                 
-                                <a class="btn custom-btn" href="">Reserve A Table</a>
+                                <a class="btn custom-btn" href="reservation.php">Reserve A Table</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +113,6 @@
             </div>
         </div>
         <!-- About End -->
-        
         
         <!-- Video Modal Start-->
         <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -131,7 +133,7 @@
         <!-- Video Modal End -->
 
 
-        <!-- Footer Start -->
+               <!-- Footer Start -->
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -155,9 +157,9 @@
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
+                                    <a href="terms.php">Terms of use</a>
+                                    <a href="privacypolicy.php">Privacy policy</a>
+                                    <a href="cookies.php">Cookies</a>
                                     <a href="">Help</a>
                                     <a href="">FQAs</a>
                                 </div>
@@ -166,10 +168,12 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
+                            <?php
+                            echo"<h2>Newsletter</h2>";
+                            echo"<p>
                                 Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                            </p>
+                            </p>";
+                            ?>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
                                 <button class="btn custom-btn">Submit</button>
@@ -180,12 +184,14 @@
             </div>
             <div class="copyright">
                 <div class="container">
+                    
                     <p>Copyright &copy; <a href="#">MSC's Online Canteen</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                   <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
         <!-- Footer End -->
+
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
