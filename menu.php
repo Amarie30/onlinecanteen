@@ -75,224 +75,486 @@
             </div>
         </div>
         <!-- Page Header End -->
-  <!-- Food Start -->
-  <div class="food">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="food-item">
-                    <i class="flaticon-burger"></i>
-                    <h2>Burgers</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                    </p>
-                    <a href="">View Menu</a>
+   
+        <!-- Food Start -->
+        <div class="food">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-vegetable"></i>
+                            
+                            <?php
+                            echo"<h2>Breakfast</h2>";
+                            echo"<p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>";
+                            ?>
+                            <a href="">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-snack"></i>
+                           
+                            <?php
+                            echo"<h2>Snacks</h2>";
+                            echo"<p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>";
+                            ?>
+                            <a href="">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-cocktail"></i>
+                            
+                            <?php
+                            echo"<h2>Drinks</h2>";
+                            echo"<p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>";
+                            ?>
+                            <a href="">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-meat"></i>
+                            <?php
+                            echo"<h2>Lunch</h2>";
+                            "<p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>";
+                            ?>
+                            <a href="">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-fast-food"></i>
+                            
+                            <?php
+                            echo"<h2>Appetizers</h2>";
+                            echo"<p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>";
+                            ?>
+                            <a href="">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="food-item">
+                            <i class="flaticon-cooking"></i>
+                            <?php
+                            echo"<h2>Dessert</h2>";
+                            echo"<p>
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            </p>";
+                            ?>
+
+                            <a href="">View Menu</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="food-item">
-                    <i class="flaticon-snack"></i>
-                    <h2>Snacks</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                    </p>
-                    <a href="">View Menu</a>
+        </div>
+        <!-- Food End -->
+        
+        
+          <!-- Menu Start -->
+          <div class="menu">
+            <div class="container">
+                <div class="section-header text-center">
+                    <?php
+                    echo"<p>Food Menu</p>";
+                    echo"<h2>Today's Menu</h2>";
+                    ?>
+                </div>
+                <div class="menu-tab">
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#breakfast">Breakfast</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#snacks">Snacks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#drinks">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#lunch">Lunch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#appetizers">Appetizers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#dessert">Dessert</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="breakfast" class="container tab-pane active">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/egg-fried-rice.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Egg Fried Rice</span> <strong>₱25.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/hotsilog.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Hotsilog</span> <strong>₱50.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/longsilog.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                           
+                                           <?php
+                                            echo"<h3><span>Longsilog</span> <strong>₱50.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/filipino-beef-tapa-tapsilog-1.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Tapsilog</span> <strong>₱65.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/tocilog.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Tocilog</span> <strong>₱100.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-block">
+                                    <img src="img/egg-fried-rice.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="snacks" class="container tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/snacks-nova.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Nova</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/snacks-piattos.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Piattos</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/snacks-rebisco.jpeg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Rebisco</span> <strong>₱7.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/snacks-skyflakes.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo
+                                            "<h3><span>Skyflakes</span> <strong>₱25.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-block">
+                                    <img src="img/roller-coaster.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="drinks" class="container tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/drinks-cocacola.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Coca-cola</span> <strong>₱15.00</strong></h3>";
+                                            "<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/drinks-royal.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Royal</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/drinks-milktea.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Milk Tea</span> <strong>₱65.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/drinks-icedtea.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Iced Tea</span> <strong>₱25.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="img/sprite.jpg" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <?php
+                                            echo"<h3><span>Sprite</span> <strong>₱15.00</strong></h3>";
+                                            echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                            ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-block">
+                                    <img src="img/drinks-cocacola.jpg" alt="Image">
+                                </div>  
+                            </div>
+                        </div>
+            
+            <div id="lunch" class="container tab-pane fade">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/adobo.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Pork Adobo</span> <strong>₱50.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/chicken curry.png" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Chicken Curry</span> <strong>₱50.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/chicken-nuggets-square.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Chicken Nuggets</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/linch beefsteak.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Beef Steak</span> <strong>₱65.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/caldereta.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Caldereta</span> <strong>₱50.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <img src="img/adobo.jpg" alt="Image">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="food-item">
-                    <i class="flaticon-cocktail"></i>
-                    <h2>Drinks</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                    </p>
-                    <a href="">View Menu</a>
+            <div id="appetizers" class="container tab-pane fade" >
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/app-lumpia.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Lumpiang Shanghai</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/potato mojos.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Potato Mojos</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/cheesy-dynamite.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Cheesy Dynamite</span> <strong>₱15.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/coconut-shrimp.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Coconut Shrimp</span> <strong>₱25.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <img src="img/potato mojos.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <div id="dessert" class="container tab-pane fade">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/snacks-puto.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Puto</span> <strong>₱15.00</strong></h3>";
+                                "<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/dessert-cassavacake.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Cassava Cake</span> <strong>₱10.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/dessert-halohalo.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Halo Halo</span> <strong>₱25.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-img">
+                                <img src="img/dessert-majablanca.jpg" alt="Image">
+                            </div>
+                            <div class="menu-text">
+                                <?php
+                                echo"<h3><span>Maja Blanca</span> <strong>₱25.00</strong></h3>";
+                                echo"<p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>";
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <img src="img/dessert-halohalo.jpg" alt="Image">
+                    </div>  
+
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Food End -->
-
-       <!-- Menu Start -->
-       <div class="menu">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Food Menu</p>
-                <h2>Delicious Food Menu</h2>
-            </div>
-            <div class="menu-tab">
-                <ul class="nav nav-pills justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#burgers">Burgers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#snacks">Snacks</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#drinks">Drinks</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div id="burgers" class="container tab-pane active">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-12">
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-burger.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Mini cheese Burger</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-burger.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Double size burger</span> <strong>₱50.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-burger.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Bacon, EGG and Cheese</span> <strong>₱50.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-burger.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Pulled porx Burger</span> <strong>₱65.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-burger.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Fried chicken Burger</span> <strong>₱100.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 d-none d-lg-block">
-                                <img src="img/menu-burger-img.jpg" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="snacks" class="container tab-pane fade">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-12">
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-snack.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Corn Tikki - Spicy fried Aloo</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-snack.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Bread besan Toast</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-snack.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Healthy soya nugget snacks</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-snack.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Tandoori Soya Chunks</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 d-none d-lg-block">
-                                <img src="img/menu-snack-img.jpg" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="drinks" class="container tab-pane fade">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-12">
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-beverage.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Single Cup Brew</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-beverage.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Caffe Americano</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-beverage.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Caramel Macchiato</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-beverage.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Standard black coffee</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-beverage.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Standard black coffee</span> <strong>₱25.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 d-none d-lg-block">
-                                <img src="img/menu-beverage-img.jpg" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Menu End -->
-    
+</div>
+        <!-- Menu End -->
+        
 
         <!-- Footer Start -->
         <div class="footer">
