@@ -80,8 +80,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading-title text-center">
-                            <h2>Today's Menu</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                            <?php
+                            echo"<h2>Today's Menu</h2>";
+                            echo"<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>";
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -92,9 +94,11 @@
                         <div class="gallery-single fix">
                             <img src="img/snacks-puto.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Puto</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5> ₱15.00</h5>
+                                <?php
+                                echo"<h4>Puto</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5> ₱15.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -105,9 +109,11 @@
                         <div class="gallery-single fix">
                             <img src="img/dessert-cassavacake.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Cassava Cake</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱10.00</h5>
+                                <?php
+                                echo"<h4>Cassava Cake</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱10.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -118,9 +124,12 @@
                         <div class="gallery-single fix">
                             <img src="img/dessert-halohalo.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Halo Halo</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱25.00</h5>
+                                <?php
+
+                                echo"<h4>Halo Halo</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱25.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -131,9 +140,11 @@
                         <div class="gallery-single fix">
                             <img src="img/dessert-majablanca.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Maja Blanca</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱25.00</h5>
+                                <?php
+                                echo"<h4>Maja Blanca</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱25.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -144,9 +155,11 @@
                         <div class="gallery-single fix">
                             <img src="img/bibingka.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Bibingka</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱15.00</h5>
+                                <?php
+                                echo"<h4>Bibingka</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                echo"<h5>₱15.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -157,9 +170,12 @@
                         <div class="gallery-single fix">
                             <img src="img/ube-halaya-t-1.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <h4>Ube Halaya</h4>
-                                <p>Sed id magna vitae eros sagittis euismod.</p>
-                                <h5>₱15.00</h5>
+                                <?php
+                                echo"<h4>Ube Halaya</h4>";
+                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+
+                                echo"<h5>₱15.00</h5>";
+                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
