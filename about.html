@@ -24,38 +24,40 @@
     </head>
 
     <body>
-          <!-- Nav Bar Start -->
+            <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand"><img src="img/msc-logo.png"></a>
+                <a href="index.html" class="navbar-brand"><img src="img/msc-logo.png"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link ">Home</a>
-                        <a href="about.php" class="nav-item nav-link ">About</a>
-                        <a href="feature.php" class="nav-item nav-link">Feature</a>
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <a href="feature.html" class="nav-item nav-link">Feature</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu</a>
                             <div class="dropdown-menu">
-                                <a href="breakfast.php" class="dropdown-item">Breakfast</a>
-                                <a href="snacks.php" class="dropdown-item">Snacks</a>
-                                <a href="lunch.php" class="dropdown-item">Lunch</a>
-                                <a href="appetizers.php" class="dropdown-item">Appetizers</a>
-                                <a href="drinks.php" class="dropdown-item">Drinks</a>
-                                <a href="dessert.php" class="dropdown-item">Dessert</a>
+                                <a href="breakfast.html" class="dropdown-item">Breakfast</a>
+                                <a href="snacks.html" class="dropdown-item">Snacks</a>
+                                <a href="lunch.html" class="dropdown-item">Lunch</a>
+                                <a href="appetizers.html" class="dropdown-item">Appetizers</a>
+                                <a href="drinks.html" class="dropdown-item">Drinks</a>
+                                <a href="dessert.html" class="dropdown-item">Dessert</a>
                             </div>
                             </div>
                             
-                        <a href="reservation.php" class="nav-item nav-link">Reservation</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="reservation.html" class="nav-item nav-link">Reservation</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Nav Bar End -->
+
+
 
         
         
@@ -64,7 +66,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Cookies</h2>
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
                     </div>
                 </div>
             </div>
@@ -74,60 +80,62 @@
         
         
      
+       
         <!-- About Start -->
         <div class="about">
             <div class="container">
-                <div class="align-items-center">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/msc.png" alt="Image">
+                            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="about-content">
-                    <?php
-                        echo"<h3>Tracking Technologies and Cookies</h3>
-<p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>";
-?>
+                            <div class="section-header">
+                                <p>About Us</p>
+                            </div>
+                            <div class="about-text">
+                              <?php
+                              echo"<p>MSC Canteen Online Ordering System is a program that speeds up the ordering process. Students are no longer required to stand in line. Students also save time and energy by not having to go down stairs to learn about the foods available at the canteen. This website has a user-friendly design as well. To provide users with a good experience, the developers made the interface as simple as possible.</p>";
+                             echo"
+                             <p>
+                                    This web application's goal is to provide a new way to order dishes at the canteen. Its purpose is to serve as the MSC canteen's e-commerce website. Note that this website is hosted via GitHub.com and we uses a pre-designed template downloaded from FREE-CSS.com.
+                                </p>";
+                                ?>
 
-
-<ul>
-    <?php
-echo"<li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>";
-?>
-
-<li><strong>Flash Cookies.</strong> Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &quot;Where can I change the settings for disabling, or deleting local shared objects?&quot; available at <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_" rel="external nofollow noopener" target="_blank">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</a></li>
-<li><strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
-</ul>
-
-<p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. Learn more about cookies: <a href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking" target="_blank">Use of Cookies by Free Privacy Policy</a>.</p>
-<?php
-echo"<p>We use both Session and Persistent Cookies for the purposes set out below:</p>";
-echo"<ul>
-<li>
-<p><strong>Necessary / Essential Cookies</strong></p>
-<p>Type: Session Cookies</p>
-<p>Administered by: Us</p>
-<p>Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</p>
-</li>
-<li>
-<p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p>
-<p>Type: Persistent Cookies</p>
-<p>Administered by: Us</p>
-<p>Purpose: These Cookies identify if users have accepted the use of cookies on the Website.</p>
-</li>
-<li>
-<p><strong>Functionality Cookies</strong></p>
-<p>Type: Persistent Cookies</p>
-<p>Administered by: Us</p>
-<p>Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</p>
-</li>
-</ul>";
-echo"<p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>";
-?>
-               </div>
+                                
+                                <a class="btn custom-btn" href="reservation.php">Reserve A Table</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
+        
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End -->
 
-        <!-- Footer Start -->
+ <!-- Footer Start -->
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -150,10 +158,10 @@ echo"<p>For more information about the cookies we use and your choices regarding
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
+                                  <h2>Quick Links</h2>
+                                    <a href="terms.html">Terms of use</a>
+                                    <a href="privacypolicy.html">Privacy policy</a>
+                                    <a href="cookies.html">Cookies</a>
                                     <a href="">Help</a>
                                     <a href="">FQAs</a>
                                 </div>
@@ -162,8 +170,7 @@ echo"<p>For more information about the cookies we use and your choices regarding
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
+                            <h2>Newsletter</h2><p>
                                 Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
                             </p>
                             <div class="form">
@@ -176,12 +183,14 @@ echo"<p>For more information about the cookies we use and your choices regarding
             </div>
             <div class="copyright">
                 <div class="container">
+                    
                     <p>Copyright &copy; <a href="#">MSC's Online Canteen</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                   <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
         <!-- Footer End -->
+
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
@@ -201,3 +210,4 @@ echo"<p>For more information about the cookies we use and your choices regarding
         <script src="js/main.js"></script>
     </body>
 </html>
+

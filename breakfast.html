@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>MSC's Online Canteen</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+ 
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -25,38 +25,39 @@
     </head>
 
     <body>
-          <!-- Nav Bar Start -->
+           <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand"><img src="img/msc-logo.png"></a>
+                <a href="index.html" class="navbar-brand"><img src="img/msc-logo.png"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="feature.php" class="nav-item nav-link">Feature</a>
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="feature.html" class="nav-item nav-link">Feature</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu</a>
+                            <a href="#" class="nav-link active dropdown-toggle" data-toggle="dropdown">Menu</a>
                             <div class="dropdown-menu">
-                                <a href="breakfast.php" class="dropdown-item">Breakfast</a>
-                                <a href="snacks.php" class="dropdown-item">Snacks</a>
-                                <a href="lunch.php" class="dropdown-item">Lunch</a>
-                                <a href="appetizers.php" class="dropdown-item">Appetizers</a>
-                                <a href="drinks.php" class="dropdown-item">Drinks</a>
-                                <a href="dessert.php" class="dropdown-item">Dessert</a>
+                                <a href="breakfast.html" class="dropdown-item">Breakfast</a>
+                                <a href="snacks.html" class="dropdown-item">Snacks</a>
+                                <a href="lunch.html" class="dropdown-item">Lunch</a>
+                                <a href="appetizers.html" class="dropdown-item">Appetizers</a>
+                                <a href="drinks.html" class="dropdown-item">Drinks</a>
+                                <a href="dessert.html" class="dropdown-item">Dessert</a>
                             </div>
                             </div>
                             
-                        <a href="reservation.php" class="nav-item nav-link">Reservation</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="reservation.html" class="nav-item nav-link">Reservation</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Nav Bar End -->
+
 
         
         
@@ -65,7 +66,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Dessert</h2>
+                        <h2>BREAKFAST</h2>
                     </div>
                 </div>
             </div>
@@ -74,16 +75,14 @@
         
         
      
-        <!-- Dessert Starts Here -->
+        <!-- Breakfast Starts Here -->
         <div class="menu-box">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading-title text-center">
-                            <?php
-                            echo"<h2>Today's Menu</h2>";
-                            echo"<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>";
-                            ?>
+                            <h2>Today's Menu</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>"
                         </div>
                     </div>
                 </div>
@@ -92,13 +91,11 @@
                 <div class="row special-list">
                     <div class="col-lg-4 col-md-6 special-grid drinks">
                         <div class="gallery-single fix">
-                            <img src="img/snacks-puto.jpg" class="img-fluid" alt="Image">
+                            <img src="img/egg-fried-rice.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <?php
-                                echo"<h4>Puto</h4>";
-                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
-                                echo"<h5> ₱15.00</h5>";
-                                ?>
+                                <h4>Egg Fried Rice</h4>
+                                <p>Sed id magna vitae eros sagittis euismod.</p>
+                                <h5> ₱15.00</h5>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -107,13 +104,11 @@
                     
                     <div class="col-lg-4 col-md-6 special-grid drinks">
                         <div class="gallery-single fix">
-                            <img src="img/dessert-cassavacake.jpg" class="img-fluid" alt="Image">
+                            <img src="img/hotsilog.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <?php
-                                echo"<h4>Cassava Cake</h4>";
-                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
-                                echo"<h5>₱10.00</h5>";
-                                ?>
+                                <h4>Hotsilog</h4>
+                                <p>Sed id magna vitae eros sagittis euismod.</p>
+                                <h5>₱50.00</h5>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -122,14 +117,25 @@
                     
                     <div class="col-lg-4 col-md-6 special-grid drinks">
                         <div class="gallery-single fix">
-                            <img src="img/dessert-halohalo.jpg" class="img-fluid" alt="Image">
+                            <img src="img/longsilog.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <?php
+                                <h4>Longsilog</h4>
+                                <p>Sed id magna vitae eros sagittis euismod.</p>
+                                <h5>₱65.00</h5>
+                                <a class="btn custom-btn" href="">Order Now</a>
+                                <a class="btn custom-btn" href="">Reserve Table</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 special-grid lunch">
+                        <div class="gallery-single fix">
+                            <img src="img/tocilog.jpg" class="img-fluid" alt="Image">
+                            <div class="why-text">
 
-                                echo"<h4>Halo Halo</h4>";
-                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
-                                echo"<h5>₱25.00</h5>";
-                                ?>
+                                <h4>Tocilog</h4>
+                                <p>Sed id magna vitae eros sagittis euismod.</p>
+                                <h5>₱50.00</h5>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -138,13 +144,11 @@
                     
                     <div class="col-lg-4 col-md-6 special-grid lunch">
                         <div class="gallery-single fix">
-                            <img src="img/dessert-majablanca.jpg" class="img-fluid" alt="Image">
+                            <img src="img/filipino-beef-tapa-tapsilog-1.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <?php
-                                echo"<h4>Maja Blanca</h4>";
-                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
-                                echo"<h5>₱25.00</h5>";
-                                ?>
+                                <h4>Tapsilog</h4>
+                                <p>Sed id magna vitae eros sagittis euismod.</p>
+                                <h5>₱15.00</h5>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -153,29 +157,12 @@
                     
                     <div class="col-lg-4 col-md-6 special-grid lunch">
                         <div class="gallery-single fix">
-                            <img src="img/bibingka.jpg" class="img-fluid" alt="Image">
+                            <img src="img/lugaw.jpg" class="img-fluid" alt="Image">
                             <div class="why-text">
-                                <?php
-                                echo"<h4>Bibingka</h4>";
-                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
-                                echo"<h5>₱15.00</h5>";
-                                ?>
-                                <a class="btn custom-btn" href="">Order Now</a>
-                                <a class="btn custom-btn" href="">Reserve Table</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6 special-grid lunch">
-                        <div class="gallery-single fix">
-                            <img src="img/ube-halaya-t-1.jpg" class="img-fluid" alt="Image">
-                            <div class="why-text">
-                                <?php
-                                echo"<h4>Ube Halaya</h4>";
-                                echo"<p>Sed id magna vitae eros sagittis euismod.</p>";
+                                <h4>ArozCaldo</h4>
+                                <p>Sed id magna vitae eros sagittis euismod.</p>
+                                <h5>₱15.00</h5>
 
-                                echo"<h5>₱15.00</h5>";
-                                ?>
                                 <a class="btn custom-btn" href="">Order Now</a>
                                 <a class="btn custom-btn" href="">Reserve Table</a>
                             </div>
@@ -192,6 +179,7 @@
         
         
 
+   
         <!-- Footer Start -->
         <div class="footer">
             <div class="container">
@@ -216,9 +204,9 @@
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
+                                    <a href="terms.html">Terms of use</a>
+                                    <a href="privacypolicy.html">Privacy policy</a>
+                                    <a href="cookies.html">Cookies</a>
                                     <a href="">Help</a>
                                     <a href="">FQAs</a>
                                 </div>
@@ -227,8 +215,7 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <p>
+                            <h2>Newsletter</h2><p>
                                 Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
                             </p>
                             <div class="form">
@@ -241,12 +228,14 @@
             </div>
             <div class="copyright">
                 <div class="container">
+                    
                     <p>Copyright &copy; <a href="#">MSC's Online Canteen</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                   <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
         <!-- Footer End -->
+
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
@@ -265,4 +254,4 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
-</html>
+    </html>
